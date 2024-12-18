@@ -6,41 +6,32 @@ This project focuses on building a Spam Detection System using Natural Language 
 
 Features
 
-Dataset: A labeled dataset of messages, with examples of spam and non-spam (ham) messages.
+- Dataset: A labeled dataset of messages, with examples of spam and non-spam (ham) messages.
+- Preprocessing: Cleaning and transforming text data for analysis.
+- Feature Extraction: Representing text as numerical data using techniques like Bag-of-Words (BoW), TF-IDF, or Word Embeddings.
+- Modeling: Training machine learning models to classify messages.
+- Evaluation: Measuring the model’s performance using accuracy, precision, recall, F1 score, etc.
+- Deployment: A simple interface or API for detecting spam in real-time.
 
-Preprocessing: Cleaning and transforming text data for analysis.
-
-Feature Extraction: Representing text as numerical data using techniques like Bag-of-Words (BoW), TF-IDF, or Word Embeddings.
-
-Modeling: Training machine learning models to classify messages.
-
-Evaluation: Measuring the model’s performance using accuracy, precision, recall, F1 score, etc.
-
-Deployment: A simple interface or API for detecting spam in real-time.
 
 Libraries and Tools Used
 
-NLP Libraries: NLTK, spaCy, or Scikit-learn for text preprocessing and feature extraction.
+- NLP Libraries: NLTK, spaCy, or Scikit-learn for text preprocessing and feature extraction.
+- Machine Learning: Scikit-learn for building and training models.
+- Exploration: Pandas and Matplotlib/Seaborn for data visualization.
 
-Machine Learning: Scikit-learn for building and training models.
 
-Exploration: Pandas and Matplotlib/Seaborn for data visualization.
-
-Key Techniques
+            Key Techniques
 
 Text Preprocessing:
+- Tokenization
+- Stop-word removal
+- Lowercasing
+- Lemmatization or stemming
 
-Tokenization
-
-Stop-word removal
-
-Lowercasing
-
-Lemmatization or stemming
 
 Feature Extraction:
-
-Word embeddings like Word2Vec or GloVe
+- Word embeddings like Word2Vec or GloVe
 
 
 
